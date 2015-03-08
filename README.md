@@ -1,5 +1,5 @@
-## LexicalScopingDemo
-### Lexical scoping demo for help in understanding R Programming assignment 2.
+## Lexical Scoping and <<- Tutorial
+### Lexical scoping tutorial for help in understanding R Programming assignment 2.
 
 Let's start simple and just play around at the command prompt first.
 
