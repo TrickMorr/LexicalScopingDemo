@@ -35,7 +35,7 @@ sum5 <- function(x) {
 
 Now, if we ran `sum5(9)` here, the function will return the value of 9. Why? Try calling `ls()` this time. You will see that x does exist like it did before. The <<- operator defined x in the global environment, because that is where the function where <<- was used was defined. 
 
-But why did the function print 9 and not 13?  The scoping rules of R mean that when we the function came to the line `print(x)`, it first looks locally, and the function has an x we used as an argument for the function. While this function is running, there are effectively two x's. When it is finished, there is only one.
+But why did the function print 9 and not 14?  The scoping rules of R mean that when we the function came to the line `print(x)`, it first looks locally, and the function has an x we used as an argument for the function. While this function is running, there are effectively two x's. When it is finished, there is only one.
 
 Now, all of this could give you the wrong idea about the <<- operator, and make you think that it defines a value up one environment outside where it is used. So let's look at something more similar to the assignment functions. You may prefer to copy and paste these into an R script, then source them to the workspace:
 
