@@ -22,7 +22,7 @@ sum5 <- function(y) {
 ```
 Now this is very different. The <<- operator means that x is not being assigned locally (within the function) but is being assigned in the environment in which the function was defined. In this case, that environment is the global environment.
 
-So, if we ran `sum5(9)` here, the function returns the sum of 9 and 5, but now, if we call `ls()`, we will find that x exists in the workspace. We can type `x` and see that its value is 13.
+So, if we ran `sum5(9)` here, the function returns the sum of 9 and 5, but now, if we call `ls()`, we will find that x exists in the workspace. We can type `x` and see that its value is 14.
 
 What if we did this?:
 ```{r}
